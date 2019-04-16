@@ -2,8 +2,9 @@
   "name": "node-amazon-storefront-app",
   "version": "1.0.0",
   "description": "Node Amazon Storefront Application",
-  "main": "",
+  "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/mohamedsamara/Node-Amazon-Storefront-App/issues"
   },
-  "homepage": "https://github.com/mohamedsamara/Node-Amazon-Storefront-App#readme"
+  "homepage": "https://github.com/mohamedsamara/Node-Amazon-Storefront-App#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "mysql": "^2.16.0"
+  }
 }
