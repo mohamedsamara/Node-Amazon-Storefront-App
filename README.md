@@ -18,3 +18,4 @@ $ npm install
 ## Languages & tools
 
 - [Node.js](https://nodejs.org/en/)
+- [MySQL](https://www.mysql.com/)
