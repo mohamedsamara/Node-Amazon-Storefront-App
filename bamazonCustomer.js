@@ -1,5 +1,7 @@
 const readline = require('readline');
 
+const { checkInventory } = require('./models/customer');
+
 module.exports = function() {
   const rl = readline.createInterface({
     input: process.stdin,
@@ -13,6 +15,8 @@ module.exports = function() {
 
       rl.question('How many you want? ', quantity => {
         console.log(`Thank you, I'll check if we have it in stock`);
+
+        checkInventory(productID, quantity);
 
         rl.close();
       });

@@ -3,10 +3,14 @@
 require('dotenv').config();
 const mysql = require('mysql');
 
-const keys = require('./keys.js');
+const keys = require('./keys');
+
 const connection = mysql.createConnection(keys.mysql);
 
 connection.connect(function(err) {
   if (err) throw err;
-  //   console.log('connected as id ' + connection.threadId);
 });
+
+module.exports = {
+  connection
+};

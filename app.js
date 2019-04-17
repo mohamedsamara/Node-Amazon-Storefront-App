@@ -1,8 +1,7 @@
 // This is the entry file for this application
-const database = require('./database.js');
-const customer = require('./bamazonCustomer.js');
-const manager = require('./bamazonManager.js');
-const supervisor = require('./bamazonSupervisor.js');
+const customer = require('./bamazonCustomer');
+const manager = require('./bamazonManager');
+const supervisor = require('./bamazonSupervisor');
 
 const command = process.argv[2];
 
