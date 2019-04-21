@@ -23,6 +23,7 @@
   "homepage": "https://github.com/mohamedsamara/Node-Amazon-Storefront-App#readme",
   "dependencies": {
     "dotenv": "^7.0.0",
+    "inquirer": "^6.3.1",
     "mysql": "^2.16.0"
   }
 }

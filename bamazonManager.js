@@ -1,3 +1,1 @@
-module.exports = function() {
-  console.log(`Manager View`);
-};
+module.exports = function() {};
