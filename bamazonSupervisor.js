@@ -21,27 +21,6 @@ module.exports = function() {
     }
   });
 
-  const showUpdateStockView = () => {
-    let questions = [
-      {
-        type: 'input',
-        name: 'product',
-        message: 'Please enter the product ID',
-        filter: Number
-      },
-      {
-        type: 'input',
-        name: 'quantity',
-        message: 'Please enter the quantity you want to add',
-        filter: Number
-      }
-    ];
-
-    inquirer.prompt(questions).then(answer => {
-      updateStock(answer.product, answer.quantity);
-    });
-  };
-
   const showAddDepartmenttView = () => {
     let questions = [
       {
