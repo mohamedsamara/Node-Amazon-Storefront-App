@@ -11,7 +11,7 @@ module.exports = function() {
   rl.question(
     'Looking for a product? Please enter the product ID',
     productID => {
-      console.log(`Thank you`, productID);
+      console.log(`Thank you`);
 
       rl.question('How many you want? ', quantity => {
         console.log(`Thank you, I'll check if we have it in stock`);
