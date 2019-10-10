@@ -11,7 +11,7 @@ This app will have three screen views, first view is the customer view, the app 
 Some basic Git commands are:
 
 ```
-$ git clone https://github.com/mohamedsamara/Node-Amazon-Storefront-App.git
+$ git clone https://github.com/mohamedsamara/node-amazon-storefront-app.git
 $ cd project
 $ npm install
 
