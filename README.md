@@ -12,7 +12,6 @@ Some basic Git commands are:
 $ git clone https://github.com/mohamedsamara/node-amazon-storefront-app.git
 $ cd project
 $ npm install
-
 ```
 
 ## Languages & tools
